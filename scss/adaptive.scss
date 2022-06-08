@@ -1,0 +1,172 @@
+@media only screen and (max-width: 1500px) {
+	body .container .section-head {
+		margin: 0 auto;
+	}
+
+	body .section-info {
+		ul .btn {
+			font-size: 18px;
+			margin: 0 auto 0 100px;
+			&.btn:first-child {
+				margin-left: 0;
+			}
+		}
+	}
+
+	body .section-card {
+		margin: 30px auto;
+	}
+
+	body .form {
+		margin: 30px auto;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+	body .container .section-head {
+		margin: 0 auto;
+	}
+
+	body .section-info {
+		ul .btn {
+			font-size: 18px;
+			margin: 0 auto 0 110px;
+			&.btn:first-child {
+				margin-left: 0;
+			}
+		}
+	}
+
+	body .section-card {
+		margin: 30px auto;
+	}
+
+	body .form {
+		margin: 30px auto;
+	}
+}
+/* Medium Devices, Dekstop */
+@media only screen and (max-width: 992px) {
+	body .container .section-head {
+		margin: 20px;
+	}
+
+	body .section-info {
+		ul .btn {
+			font-size: 17px;
+			margin: 0 auto 0 100px;
+			&.btn:first-child {
+				margin-left: 0;
+			}
+		}
+	}
+
+	body .section-card {
+		margin: 20px;
+	}
+
+	body .form {
+		margin: 20px;
+	}
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+	body .container .section-head {
+		margin: 20px;
+	}
+
+	body .section-info {
+		ul .btn {
+			font-size: 16px;
+			margin: 0 auto 0 75px;
+			&.btn:first-child {
+				margin-left: 0;
+			}
+		}
+	}
+
+	body .section-card {
+		margin: 20px;
+	}
+
+	body .form {
+		margin: 20px;
+	}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+	body .container .section-head {
+		margin: 20px;
+		display: block;
+
+		img {
+			display: block;
+			margin: 0 auto;
+		}
+
+		.section-info {
+			h1 {
+				text-align: center;
+			}
+
+			ul .btn {
+				font-size: 15px;
+				margin: 0 auto 0 55px;
+				&.btn:first-child {
+					margin-left: 0;
+				}
+			}
+		}
+	}
+
+	body .section-card {
+		margin: 20px;
+	}
+
+	body .form {
+		margin: 20px;
+	}
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+	body .section-head .section-info h1 {
+		font-size: 25px;
+		margin: 0 auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	body .container .section-head {
+		display: block;
+
+		img {
+			display: block;
+			margin: 0 auto;
+		}
+
+		.section-info {
+			margin: 0 10px;
+			h1 {
+				text-align: center;
+				width: 200px;
+			}
+
+			ul .btn {
+				font-size: 15px;
+				margin: 0 auto 0 10px;
+				&.btn:first-child {
+					margin-left: 0;
+				}
+			}
+		}
+	}
+
+	body .section-card {
+		margin: 20px;
+	}
+
+	body .form {
+		margin: 20px;
+	}
+}
